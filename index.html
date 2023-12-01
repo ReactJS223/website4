@@ -1,65 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DermPro Laser Skin Care</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        #slideshow {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        #slideshow img {
+            width: 100%;
+            height: auto;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            text-align: center;
+        }
+
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="container">
-    <!-- Big Font Title -->
-    <h1 class="big-title">Business Name</h1>
-
-    <!-- Photo Carousel -->
-    <div class="carousel">
-      <div><img src="image1.jpg" alt="Image 1"></div>
-      <div><img src="image2.jpg" alt="Image 2"></div>
-      <div><img src="image3.jpg" alt="Image 3"></div>
-      <div><img src="image4.jpg" alt="Image 4"></div>
-      <div><img src="image5.jpg" alt="Image 5"></div>
-      <div><img src="image6.jpg" alt="Image 6"></div>
-      <div><img src="image7.jpg" alt="Image 7"></div>
+    <!-- Header -->
+    <div id="header">
+        <img src="icon.png" alt="Your Icon" style="width: 50px; height: 50px;">
+        <h1>DermLase</h1>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <!-- Add your social network icons here -->
     </div>
 
-    <!-- Sub Images -->
-    <div class="sub-images">
-      <img src="sub-image1.jpg" alt="Sub Image 1">
-      <img src="sub-image2.jpg" alt="Sub Image 2">
-      <img src="sub-image3.jpg" alt="Sub Image 3">
-      <img src="sub-image4.jpg" alt="Sub Image 4">
-      <img src="sub-image5.jpg" alt="Sub Image 5">
+    <!-- Slideshow -->
+    <div id="slideshow">
+        <!-- Add your slideshow images here -->
+        <img src="image1.png" alt="Sample Photo 1">
+        <img src="image2.png" alt="Sample Photo 2">
+        <img src="image3.png" alt="Sample Photo 3">
+        <!-- Add more images as needed -->
     </div>
 
-    <!-- Price Table -->
-    <div class="price-table">
-      <h2>Price Table</h2>
-      <table>
-        <tr>
-          <th>Package</th>
-          <th>Price</th>
-        </tr>
-        <tr>
-          <td>Basic</td>
-          <td>$99</td>
-        </tr>
-        <tr>
-          <td>Pro</td>
-          <td>$199</td>
-        </tr>
-        <tr>
-          <td>Enterprise</td>
-          <td>$399</td>
-        </tr>
-      </table>
+    <!-- Grid -->
+    <div id="grid">
+        <div class="grid-item">
+            <h2>Title 1</h2>
+            <img src="image1.png" alt="Grid Photo 1" style="width: 100%;">
+        </div>
+        <div class="grid-item">
+            <h2>Title 2</h2>
+            <img src="image2.png" alt="Grid Photo 2" style="width: 100%;">
+        </div>
+        <div class="grid-item">
+            <h2>Title 3</h2>
+            <img src="image3.png" alt="Grid Photo 3" style="width: 100%;">
+        </div>
+        <!-- Add more grid items as needed -->
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script src="script.js"></script>
+    <!-- Footer -->
+    <div id="footer">
+        <p>Contact Number: Your Phone Number</p>
+        <p>Address: Your Address</p>
+        <p>Email: your@email.com</p>
+        <!-- Add other contact information as needed -->
+    </div>
+
 </body>
 </html>
